@@ -1,4 +1,4 @@
-//Оператор неравенства
+//Оператор неравенства, при неравенстве возвращает true
 
 function testNotEqual(val) {
   if (val != 99) { // Change this line
