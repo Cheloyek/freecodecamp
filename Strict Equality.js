@@ -9,7 +9,7 @@ function testStrict(val) {
 //2
 function compareEquality(a, b) {
 
-  if (a === b) { // Change this line
+  if (a === b) { // strict equality
     return "Equal";
   }
   return "Not Equal";
