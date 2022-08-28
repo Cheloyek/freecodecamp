@@ -1,4 +1,4 @@
-// && или
+//-------&& или------------------
 function testLogicalAnd(val) {
  /*  if (val >= 25) {
     if (val <= 50) {*/
@@ -11,7 +11,7 @@ function testLogicalAnd(val) {
 testLogicalAnd(10);
 
 
-// || и
+//---------|| и------------------
 /* function testLogicalOr(val) {
   if (val < 10) {
     return "Outside";
@@ -34,7 +34,7 @@ function testLogicalOr(val) {
 
 testLogicalOr(15);
 
-// if, else
+//----------if, else------------
 
 function testElse(val) {
   let result = "";
@@ -48,7 +48,7 @@ function testElse(val) {
 
 testElse(4);
 
-// many else 
+//----------many else----------
 
 function testElseIf(val) {
   if (val > 10) {
@@ -60,3 +60,17 @@ function testElseIf(val) {
   }
 }
 testElseIf(7);
+
+//---------logical order-------------
+
+function orderMyLogic(val) {
+  if (val < 5) { // сначала меньшее значение
+    return "Less than 5";
+  } else if (val < 10) { // большее значение
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+orderMyLogic(7);
