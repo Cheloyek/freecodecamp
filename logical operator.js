@@ -26,13 +26,24 @@ testLogicalAnd(10);
 testLogicalOr(15);
 */
 function testLogicalOr(val) {
-  // Only change code below this line
-
   if (val < 10 || val > 20) {
     return "Outside";
   }
-  // Only change code above this line
   return "Inside";
 }
 
 testLogicalOr(15);
+
+// if, else
+
+function testElse(val) {
+  let result = "";
+  if (val > 5) {
+    result = "Bigger than 5";
+  } else {
+    result = "5 or Smaller";
+  }
+  return result;
+}
+
+testElse(4);
